@@ -1,25 +1,58 @@
-# Практическая работа №4.2. Контроль целостности
+# Практическая работа №1
+## Сбор логов
 
-## Сведения об установленной системе
-![](assets/1.png)
+## Установка и запуск rsyslog на сервере
 
-## Включение МКЦ
-![](assets/2.png)
+![](https://github.com/x0ka1n3/TOIB-pracs-2023/blob/main/Prac3/assets/1.png)
 
-## Проверка запрета на запись вверх (NWU)
-![](assets/4.png)
+## и клиенте
 
-## Настройка ЗПС
-![](assets/5.png)
+![](https://github.com/x0ka1n3/TOIB-pracs-2023/blob/main/Prac3/assets/2.png)
 
-## Компиляция ELF программы, тестирование запуска неподписанного файла
-![](assets/6.png)
+## Настройка модулей 
 
-## Подсчет контрольной суммы раздела диска утилитой gostsum
-![](assets/7.png)
+![](https://github.com/x0ka1n3/TOIB-pracs-2023/blob/main/Prac3/assets/3.png)
 
-## Инициализация afick
-![](assets/8.png)
+## Добавление шаблона для сбора логов
 
-## Отслеживание изменений в ФС 
-![](assets/9.png)
+![](https://github.com/x0ka1n3/TOIB-pracs-2023/blob/main/Prac3/assets/4.png)
+
+## Определение адреса отправки логов
+
+![](https://github.com/x0ka1n3/TOIB-pracs-2023/blob/main/Prac3/assets/5.png)
+
+## Применение изменений
+
+![](https://github.com/x0ka1n3/TOIB-pracs-2023/blob/main/Prac3/assets/6.png)
+
+## Запуск контейнеров Loki и Graphana
+
+![](https://github.com/x0ka1n3/TOIB-pracs-2023/blob/main/Prac3/assets/7.png)
+
+## Запуск promtail
+
+![](https://github.com/x0ka1n3/TOIB-pracs-2023/blob/main/Prac3/assets/8.png)
+
+## Конфигурация promtail
+
+![](https://github.com/x0ka1n3/TOIB-pracs-2023/blob/main/Prac3/assets/9.png)
+
+## Проверка работы Graphana
+
+![](https://github.com/x0ka1n3/TOIB-pracs-2023/blob/main/Prac3/assets/10.png)
+
+## Запуск Signoz
+
+## Запуск тестового приложения
+
+![](https://github.com/x0ka1n3/TOIB-pracs-2023/blob/main/Prac3/assets/11.png)
+
+## Запуск панели управления Signoz
+
+![](https://github.com/x0ka1n3/TOIB-pracs-2023/blob/main/Prac3/assets/12.png)
+
+## Панель управления Signoz
+
+![](https://github.com/x0ka1n3/TOIB-pracs-2023/blob/main/Prac3/assets/13.png)
+
+![](https://github.com/x0ka1n3/TOIB-pracs-2023/blob/main/Prac3/assets/14.png)
